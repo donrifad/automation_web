@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="regression_upwork" verbose="1" configfailurepolicy="continue">
+
+    <test name="search_engine_tests" parallel = "methods" thread-count = "5" >
+        <classes>
+
+        </classes>
+    </test>
+</suite>
